@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import AmbientCanvas from "@/components/AmbientCanvas";
-import CursorSpotlight from "@/components/CursorSpotlight";
 import Navbar from "@/components/Navbar";
 import EntryTerminalModal from "@/components/EntryTerminalModal";
 import HeroSection from "@/components/HeroSection";
@@ -33,7 +32,6 @@ export default function Home() {
       <AmbientCanvas />
       <div className="cyber-grid" />
       <div className="noise-overlay" />
-      <CursorSpotlight />
 
       {/* Floating UV Cyber Dock Navbar */}
       <Navbar
